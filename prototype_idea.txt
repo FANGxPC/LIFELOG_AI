@@ -1,0 +1,57 @@
+11-Day Prototype Sprint: "The Desk Sense" Assistant
+
+Phase 1: The Sensory Pipe (Days 1–4)
+
+Day 1: Eyes & Ears Setup. Use Python with OpenCV (Vision) and faster-whisper (Audio). Write a script that captures a frame and 5 seconds of audio every 30 seconds.
+
+Day 2: VLM Integration. Connect to a local model like Moondream2 or Llama-3.2-Vision via Ollama. Task: Frame -> VLM -> Text Caption ("User puts blue bottle on table").
+
+Day 3: Speech-to-Intent. Pipe your audio clips through Whisper. Task: Audio -> Whisper -> Text ("I'm finished with my water").
+
+Day 4: The Fusion. Create a "Chronicle Entry" script that merges both: Result: [Event] User finished water and placed blue bottle on desk.
+
+Phase 2: The Digital Brain (Days 5–8)
+
+Day 5: Entity-Action Graph. Use a simple Python dictionary or NetworkX. Logic: Parse your Chronicle Entry into: Subject: User, Action: Place, Object: Bottle, Target: Desk.
+
+Day 6: Semantic Search (ChromaDB). Save your text descriptions into a local Vector DB. This allows you to ask the AI: "Where is my drink?" even if the log says "bottle."
+
+Day 7: The Reasoning Loop. Create a LangChain or LangGraph agent. Give it two tools: Search_Memory and Get_Current_Scene.
+
+Day 8: The Proactive Trigger. Hard-code a "Guardrail." Example: If the AI hears "I'm leaving" but its Graph says Phone: Desk, it triggers a print statement: "Alert: Don't forget your phone!"
+
+Phase 3: The Demo & UI (Days 9–11)
+
+Day 9: The Dashboard. Use Streamlit. It’s the fastest way to build a UI. Show a live feed of the camera, a scrolling log of "Internal Thoughts," and a chat box.
+
+Day 10: Scenario Testing. Film yourself performing a 2-minute "Story": Place a wallet on the desk while saying, "I'll keep this here." Cover it with a book. Ask: "Where is my wallet?" 4. The AI responds: "It's under the book on the desk. You placed it there 1 minute ago."
+
+Day 11: Final Polish. Clean up the code and prepare your pitch deck.
+
+The Prototype "MVP" Tech Stack
+
+Component Tech Choice Why?
+
+Vision Moondream2 Tiny, local, and understands spatial relationships.
+
+Audio faster-whisper Fast enough to run on a CPU during the demo.
+
+Reasoning Llama 3 (via Ollama) Reliable, free, and easy to prompt for JSON.
+
+Memory ChromaDB No setup required; stores data in a simple folder.
+
+UI Streamlit Turn Python logic into a website in < 100 lines.
+
+The "Winner" Demo Feature
+
+To make the judges remember you, implement the "Invisible Persistence" test:
+
+Show the AI seeing an object (e.g., a Passport).
+
+Move it and say something about it.
+
+Hide the object.
+
+Ask the AI where it is.
+
+Because your prototype has a Knowledge Graph, it will remember the last known state, proving it has "Object Permanence"—a high-level cognitive trait.

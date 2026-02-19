@@ -1,0 +1,59 @@
+LIFELOG AI: The Multi-Sensory Cognitive Partner
+
+CORE IDENTITY
+
+LIFELOG AI is a Unified Perception Engine. It bridges the gap between what you do and what you say, acting as a "Silent Witness" that provides proactive help, infinite recall, and behavioral insights. It transforms your environment into an Actionable Database.
+
+HOW IT WORKS (The "Fusion" Intelligence Layer)
+
+A. Audio-Visual Temporal Fusion
+
+The AI doesn't process sight and sound separately; it fuses them into a single "Chronicle."
+
+The Process: It aligns a video keyframe of you holding a document with the audio of you saying, "I’ll put this receipt here for the tax audit."
+
+The Result: Instead of a generic log ("User put paper on desk"), it creates a high-context event: [14:22] User filed Tax Receipt (2025) on the corner of the mahogany desk.
+
+B. Intent & Commitment Extraction
+
+The mic doesn't just record; it parses.
+
+Fact Extraction: "I'm hiding the spare key under the blue pot." -> The AI updates its "Object State" database instantly.
+
+Commitment Tracking: "Remind me to call the plumber when I get home." -> The AI identifies the intent and triggers a "Welcome Home" alert when it sees you re-enter the front door.
+
+C. Causal Knowledge Graph (The "Reasoning" Brain)
+
+Standard AI uses simple lists. LIFELOG AI builds a Dynamic Graph of your life.
+
+Nodes: People, Objects, Places, Concepts (e.g., "Taxes," "Vacation").
+
+Edges: Actions and Relationships (e.g., "User stored Passport in Safe").
+
+This allows for Multi-hop Reasoning: If you ask, "Where is the thing I was holding when I was talking about the Japan trip?", the AI traverses the graph from the concept "Japan" to the specific audio-visual event.
+
+KEY INNOVATIONS
+
+Proactive "Intent Correction": If the AI hears you say, "I'm going to the gym," but sees you walking toward the door without your gym bag, it provides a voice nudge: "Don't forget your gym bag; it's still in the laundry room."
+
+Ambient Safety Guard: It recognizes the sound of a "boiling pot" combined with the visual of an empty kitchen. Action: It sends an urgent alert to your phone: "The kitchen is unattended and I hear a pot boiling over."
+
+Semantic "Vibe" Search: You can query abstract feelings or trends. "How many hours did I actually spend focused this week?" "When did I last feel stressed? (AI analyzes audio tone + posture)."
+
+THE 2026 TECH STACK
+
+Component Technology Purpose
+
+Vision (Eyes) GLM-4.5V / Gemini 3 Flash Latest 2026 VLMs for deep 3D spatial reasoning and scene understanding.
+
+Audio (Ears) Whisper v3 / Qwen2-Audio Real-time, noise-resistant transcription and acoustic event detection.
+
+Reasoning (Brain) Agentic RAG (LangGraph) Orchestrates sub-agents to verify facts and predict user needs.
+
+Memory (Safe) FalkorDB / Neo4j + Chroma A hybrid "Graph-Vector" store for causal and semantic recall.
+
+Interface Personal Ambient Hub A unified dashboard (Web/Mobile) showing a live "Graph View" of your environment.
+
+WHY IT IS UNIQUE
+
+Most assistants are transactional (you talk, they do). LIFELOG AI is contextual (it observes, it knows). By combining "Seen" and "Heard" data into a Causal Knowledge Graph, it is the only system that understands the narrative of your life, making it the first true "Second Brain" that requires zero manual input.
