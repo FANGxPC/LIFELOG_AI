@@ -5,7 +5,7 @@ A zero-input, multimodal perception engine designed for AMD Ryzen™ AI, prototy
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 LIFELOG AI is a passive perception system built to address human forgetfulness by continuously observing and semantically indexing real-world activity.
 
